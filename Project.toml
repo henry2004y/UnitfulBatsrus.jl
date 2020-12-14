@@ -1,0 +1,7 @@
+name = "UnitfulBatsrus"
+uuid = "ab123e51-91dc-4b5a-b171-f9f07dcc0a5b"
+authors = ["hongyang "]
+version = "0.1.0"
+
+[deps]
+Unitful = "1986cc42-f94f-5a68-af5c-568840ba703d"
