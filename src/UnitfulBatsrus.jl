@@ -25,8 +25,12 @@ export @bu_str
 # velocities
 @unit V_bu  "V"      Speed             1*Unitful.km/Unitful.s   false
 
-# currents
-@unit J_bu  "J"      Current           1*Unitful.μA/Unitful.m^2 false
+# current densities
+@unit ampm2_bu  "μA/m²" CurrentDensity  1*Unitful.μA/Unitful.m^2 false
+
+# Others
+@unit tm2_bu "nT/m²" MagneticFieldDivergence 1*Unitful.nT/Unitful.m^2 false
+@unit vm2_bu "V/m²"  ElectricFieldDivergence 1*Unitful.V/Unitful.m^2  false
 
 include("batsrusmacro.jl")
 
